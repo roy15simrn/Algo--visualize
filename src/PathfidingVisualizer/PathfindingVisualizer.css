@@ -1,0 +1,84 @@
+.grid {
+  margin-top: 35px;
+  line-height: 0;
+}
+
+#myModal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(77, 77, 77, 0.4);
+  cursor: default;
+}
+
+#modal-content {
+  margin: 0% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  background-image: radial-gradient(
+    circle,
+    rgb(174, 200, 238) 20%,
+    rgb(131, 148, 206) 100%
+  );
+  color: aliceblue;
+  background-size: cover;
+}
+
+span.titleClose {
+  background-color: transparent;
+  border: none;
+  float: right;
+  font-size: 18px;
+  color: azure;
+  cursor: pointer;
+}
+span.titleClose:hover {
+  color: lightskyblue;
+}
+
+.intro {
+  text-align: left;
+  font-size: 20px;
+  line-height: 1;
+  margin-top: -15x;
+}
+
+button.btn-default {
+  background-image: radial-gradient(
+    circle,
+    rgb(174, 200, 238) 0%,
+    rgb(90, 106, 165) 100%
+  );
+  float: right;
+  font-weight: bold;
+  color: rgb(194, 228, 228);
+  cursor: pointer;
+}
+button.btn-default:hover {
+  color: rgb(36, 135, 197);
+}
+
+#navbar {
+  background-image: radial-gradient(circle, #fbeec1 0%, #e7717d 100%);
+  margin: 0;
+  padding: 5px;
+}
+#navbar a:hover {
+  color: #ce93d8;
+}
+
+#navbar-brand {
+  color: white;
+  font-size: 1.3rem;
+  text-shadow: 2px 2px 5px;
+}
+
+#navbarDropdown {
+  color: black;
+}
