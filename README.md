@@ -2,7 +2,6 @@
 
 Pathfinding alogorithm visualizer with React.js.
 
-[Click here](https://clever-villani-dd7616.netlify.app/) to play around.
 
 #
 
@@ -22,4 +21,4 @@ Pathfinding alogorithm visualizer with React.js.
 
 #
 
-### Hope you can enjoy the project as I do !
+
